@@ -36,3 +36,28 @@ function add(a,b){
     return sum;
 }
 document.getElementById("demo3").innerHTML = add(5,5);
+console.log(add(5,5));
+
+//example =1 
+function fullname(firstName,lastName){
+    return firstName+ ""+lastName;
+}
+    fullname = fullname("sai","padamati");
+    //document.write(fullname)
+    console.log(fullname)
+
+    //function scope 
+
+    function age(age){
+        fullname='sasi';
+        document.getElementById("demo4").innerHTML=fullname +" is " + age + " year old."
+    }
+
+    //global variable
+ ftuit = "apple,mange"
+ function myfunc(){
+     document.getElementById("demo5").innerHTML=("my favorite fruit is"+ftuit);}
+      console.log(ftuit)
+ 
+                    
+                        /* end function */
